@@ -1,0 +1,77 @@
+[{
+   "macro":"excerpt-data",
+   "name":"api-changelog-summary",
+   "value":"Logs added"
+},
+{
+   "macro":"text-data",
+   "name":"api-change-log-jira-fix-version",
+   "value":"1.5"
+},
+{
+   "macro":"table-data",
+   "name":"api-changelog",
+   "value":{
+      
+   }
+},
+{
+   "macro":"table-data",
+   "name":"api-changelog-execution",
+   "value":{
+      "0":[
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-id",
+            "value":"1F2CD"
+         },
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-state",
+            "value":"RESOLVED"
+         },
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-duration",
+            "value":"1h"
+         },
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-version",
+            "value":"1.5"
+         },
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-request-identifier",
+            "value":"1BCD"
+         }
+      ],
+      "1":[
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-id",
+            "value":"A45C"
+         },
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-state",
+            "value":"STARTED"
+         },
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-duration",
+            "value":"6h"
+         },
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-version",
+            "value":"1.1"
+         },
+         {
+            "macro":"text-data",
+            "name":"api-changelog-execution-request-identifier",
+            "value":"abcd32"
+         }
+      ]
+   }
+}]

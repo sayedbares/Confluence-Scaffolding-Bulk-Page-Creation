@@ -1,0 +1,374 @@
+<ac:layout>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <ac:structured-macro ac:macro-id="82af0c07-7a44-4280-9926-60bf1eeef677" ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="borderStyle">solid</ac:parameter>
+        <ac:parameter ac:name="title">Zusammenfassung</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:macro-id="d61de622-14fc-4860-8134-47aa56ad5a1d" ac:name="excerpt-data" ac:schema-version="1">
+            <ac:parameter ac:name="scaffolding">true</ac:parameter>
+            <ac:parameter ac:name="name">api-changelog-summary</ac:parameter>
+            <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+            <ac:rich-text-body>
+              <p>
+                <br/>
+              </p>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+          <ac:structured-macro ac:macro-id="4ee3ca38-de99-421d-baba-c519157ce8cd" ac:name="hidden-data" ac:schema-version="1">
+            <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+            <ac:rich-text-body>
+              <ac:structured-macro ac:macro-id="c90b89dc-9850-429a-8222-f8dc0e8e52c7" ac:name="table-data" ac:schema-version="1">
+                <ac:parameter ac:name="name">api-changelog-execution</ac:parameter>
+                <ac:parameter ac:name="initialRows">0</ac:parameter>
+                <ac:rich-text-body>
+                  <table class="wrapped">
+                    <colgroup> <col/> <col/> <col/> <col/> <col/> </colgroup>
+                    <tbody>
+                      <tr>
+                        <th>execution-id</th>
+                        <th colspan="1">state</th>
+                        <th colspan="1">duration</th>
+                        <th colspan="1">version</th>
+                        <th colspan="1">request-identifier</th>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="80560358-c79d-4261-805d-9eed25ab89da" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-execution-id</ac:parameter>
+                              <ac:parameter ac:name="type">line</ac:parameter>
+                              <ac:parameter ac:name="content">text</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                        <td colspan="1">
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="5b6f3807-1a9c-406e-860a-b1ffce2058a4" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-execution-state</ac:parameter>
+                              <ac:parameter ac:name="type">line</ac:parameter>
+                              <ac:parameter ac:name="content">text</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                        <td colspan="1">
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="5b4708cf-a7fd-46d3-9907-56322e1660ed" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-execution-duration</ac:parameter>
+                              <ac:parameter ac:name="type">line</ac:parameter>
+                              <ac:parameter ac:name="content">text</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                        <td colspan="1">
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="60e49138-f4f0-499d-ba3c-4d1aa320d65b" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-execution-version</ac:parameter>
+                              <ac:parameter ac:name="type">line</ac:parameter>
+                              <ac:parameter ac:name="content">text</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                        <td colspan="1">
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="35817afa-8f3a-45c3-9212-7d5d90e40521" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-execution-request-identifier</ac:parameter>
+                              <ac:parameter ac:name="type">line</ac:parameter>
+                              <ac:parameter ac:name="content">text</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <ac:structured-macro ac:macro-id="85fa25f7-b90b-4916-86b8-83918f5d1ec0" ac:name="hidden-data" ac:schema-version="1">
+        <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:macro-id="a503413f-2006-4838-b7ed-419142e4d119" ac:name="text-data" ac:schema-version="1">
+            <ac:parameter ac:name="name">api-change-log-jira-fix-version</ac:parameter>
+            <ac:parameter ac:name="type">line</ac:parameter>
+            <ac:parameter ac:name="content">text</ac:parameter>
+            <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+            <ac:rich-text-body>
+              <p>
+                <br/>
+              </p>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:macro-id="d212f140-f2b3-431a-9f40-857abe30776f" ac:name="hidden-data" ac:schema-version="1">
+        <ac:parameter ac:name="whenEmpty">api-change-log-jira-fix-version</ac:parameter>
+        <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:macro-id="10d569b2-ef01-42d5-a9a9-7ab53a6e6209" ac:name="panel" ac:schema-version="1">
+            <ac:parameter ac:name="title">Inhalt</ac:parameter>
+            <ac:rich-text-body>
+              <ac:structured-macro ac:macro-id="4f0a1f14-be7c-4875-891e-605b7bc13185" ac:name="report-on" ac:schema-version="1">
+                <ac:parameter ac:name="injected">true</ac:parameter>
+                <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                <ac:rich-text-body>
+                  <br/>
+                  <ac:structured-macro ac:macro-id="57ad274a-84ce-4929-9b4a-db73ff93a90b" ac:name="jira" ac:schema-version="1">
+                    <ac:parameter ac:name="server">JIRA @ Raiffeisen Software GmbH</ac:parameter>
+                    <ac:parameter ac:name="columns">key,summary,type,priority,status,target-release</ac:parameter>
+                    <ac:parameter ac:name="maximumIssues">20</ac:parameter>
+                    <ac:parameter ac:name="jqlQuery"> fixVersion = %data:api-change-log-jira-fix-version%    </ac:parameter>
+                    <ac:parameter ac:name="serverId">6ada7400-0490-3178-bb9f-54a9e509b4b4</ac:parameter>
+                  </ac:structured-macro>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+              <p>
+                <sup> <span style="vertical-align: super;letter-spacing: 0.0px;">Sollte hier keine Liste von Jira Vorgängen angezeigt werden, dann existiert für deine API keine Jira Release Information (Feld: </span> <span style="vertical-align: super;letter-spacing: 0.0px;">Lösungsversion(en))</span> </sup>
+              </p>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <ac:structured-macro ac:macro-id="3c94f13e-91fd-470c-bedf-b126e65e03c4" ac:name="hidden-data" ac:schema-version="1">
+        <ac:parameter ac:name="whenNoRows">api-changelog</ac:parameter>
+        <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:macro-id="4a19e530-bf47-43a0-a2f2-f630b74e00cf" ac:name="panel" ac:schema-version="1">
+            <ac:parameter ac:name="title">API Änderungen</ac:parameter>
+            <ac:rich-text-body>
+              <ac:structured-macro ac:macro-id="29789210-863b-4fa3-8b12-f8af8459cf26" ac:name="table-data" ac:schema-version="1">
+                <ac:parameter ac:name="name">api-changelog</ac:parameter>
+                <ac:parameter ac:name="initialRows">0</ac:parameter>
+                <ac:rich-text-body>
+                  <table class="wrapped">
+                    <colgroup> <col/> <col/> <col/> <col/> <col/> </colgroup>
+                    <tbody>
+                      <tr>
+                        <th colspan="1">Änderungsart</th>
+                        <th colspan="1">Version</th>
+                        <th>Datum</th>
+                        <th>API-Operation</th>
+                        <th colspan="1">Unterschied (nur bei Änderungsart = Geändert)</th>
+                      </tr>
+                      <tr>
+                        <td colspan="1">
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="4d0503ff-c8a5-4be1-8cf1-f718249a29c2" ac:name="hidden-data" ac:schema-version="1">
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <ac:structured-macro ac:macro-id="68613988-f071-4bc5-a2fe-92eef98b450b" ac:name="text-data" ac:schema-version="1">
+                                  <ac:parameter ac:name="name">api-changelog-type</ac:parameter>
+                                  <ac:parameter ac:name="type">line</ac:parameter>
+                                  <ac:parameter ac:name="content">text</ac:parameter>
+                                  <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                                  <ac:rich-text-body>
+                                    <p>
+                                      <br/>
+                                    </p>
+                                  </ac:rich-text-body>
+                                </ac:structured-macro>
+                                <ac:structured-macro ac:macro-id="1a0f183b-885a-4c03-8a8f-886fe077b8ce" ac:name="text-data" ac:schema-version="1">
+                                  <ac:parameter ac:name="name">api-changelog-is-change</ac:parameter>
+                                  <ac:parameter ac:name="type">line</ac:parameter>
+                                  <ac:parameter ac:name="content">text</ac:parameter>
+                                  <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                                  <ac:rich-text-body>
+                                    <p>
+                                      <br/>
+                                    </p>
+                                  </ac:rich-text-body>
+                                </ac:structured-macro>
+                                <ac:structured-macro ac:macro-id="b50ffaa2-c9b1-4c64-a8b6-3d7e5bf9c5c1" ac:name="text-data" ac:schema-version="1">
+                                  <ac:parameter ac:name="name">api-changelog-is-add</ac:parameter>
+                                  <ac:parameter ac:name="type">line</ac:parameter>
+                                  <ac:parameter ac:name="content">text</ac:parameter>
+                                  <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                                  <ac:rich-text-body>
+                                    <p>
+                                      <br/>
+                                    </p>
+                                  </ac:rich-text-body>
+                                </ac:structured-macro>
+                                <ac:structured-macro ac:macro-id="b99a8cd1-972d-40a6-b0db-97fbfd0402a1" ac:name="text-data" ac:schema-version="1">
+                                  <ac:parameter ac:name="name">api-changelog-is-failure</ac:parameter>
+                                  <ac:parameter ac:name="type">line</ac:parameter>
+                                  <ac:parameter ac:name="content">text</ac:parameter>
+                                  <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                                  <ac:rich-text-body>
+                                    <p>
+                                      <br/>
+                                    </p>
+                                  </ac:rich-text-body>
+                                </ac:structured-macro>
+                                <ac:structured-macro ac:macro-id="c7a4e5e8-ee73-45b3-8667-9f5227643f54" ac:name="text-data" ac:schema-version="1">
+                                  <ac:parameter ac:name="name">api-changelog-is-delete</ac:parameter>
+                                  <ac:parameter ac:name="type">line</ac:parameter>
+                                  <ac:parameter ac:name="content">text</ac:parameter>
+                                  <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                                  <ac:rich-text-body>
+                                    <p>
+                                      <br/>
+                                    </p>
+                                  </ac:rich-text-body>
+                                </ac:structured-macro>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <ac:structured-macro ac:macro-id="6c37b202-217e-4d12-8316-59c84b817967" ac:name="hidden-data" ac:schema-version="1">
+                              <ac:parameter ac:name="whenEmpty">api-changelog-is-add</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <strong> <span style="color: rgb(51,153,102);">Hinzugefügt</span> </strong>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <ac:structured-macro ac:macro-id="dfe6e6fb-f4f5-40cf-bb69-77368d0cadfa" ac:name="hidden-data" ac:schema-version="1">
+                              <ac:parameter ac:name="whenEmpty">api-changelog-is-change</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <strong> <span style="color: rgb(255,204,0);">Geändert</span> </strong>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <ac:structured-macro ac:macro-id="1d534c38-ef29-48b2-bb8d-7f6661814d0d" ac:name="hidden-data" ac:schema-version="1">
+                              <ac:parameter ac:name="whenEmpty">api-changelog-is-failure</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <strong> <span style="color: rgb(255,0,0);">Fehler</span> </strong>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <ac:structured-macro ac:macro-id="4756dd77-0cbb-44ab-b378-9f2f59ba7db8" ac:name="hidden-data" ac:schema-version="1">
+                              <ac:parameter ac:name="whenEmpty">api-changelog-is-delete</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <span style="color: rgb(153,51,0);"> <strong>Gelöscht</strong> </span>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                        <td colspan="1">
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="9c966403-4bfc-46ca-9471-5da61d3a11fa" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-version</ac:parameter>
+                              <ac:parameter ac:name="type">line</ac:parameter>
+                              <ac:parameter ac:name="content">text</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="610a8ddd-8108-48c2-9c52-e8804bd76aa0" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-created-date</ac:parameter>
+                              <ac:parameter ac:name="type">line</ac:parameter>
+                              <ac:parameter ac:name="content">text</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="423cdef3-d77c-49f7-a3d0-b7de7138e0ce" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-operationpage</ac:parameter>
+                              <ac:parameter ac:name="type">line</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                        <td colspan="1">
+                          <div class="content-wrapper">
+                            <ac:structured-macro ac:macro-id="98648463-9022-43e4-92cb-802e0d143cea" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-operationpage-diff</ac:parameter>
+                              <ac:parameter ac:name="type">line</ac:parameter>
+                              <ac:parameter ac:name="content">wiki</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <ac:structured-macro ac:macro-id="4a753990-db40-4dd4-9593-389de9a5906a" ac:name="text-data" ac:schema-version="1">
+                              <ac:parameter ac:name="name">api-changelog-stacktrace</ac:parameter>
+                              <ac:parameter ac:name="content">text</ac:parameter>
+                              <ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter>
+                              <ac:rich-text-body>
+                                <p>
+                                  <br/>
+                                </p>
+                              </ac:rich-text-body>
+                            </ac:structured-macro>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>
