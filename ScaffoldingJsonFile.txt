@@ -38,7 +38,7 @@
          {
             "macro":"text-data",
             "name":"Project-Status",
-            "value":"Dones	"
+            "value":"Dones "
          },
          {
             "macro":"date-data",
